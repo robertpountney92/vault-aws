@@ -56,7 +56,7 @@ variable "public" {
   default     = false
 }
 
-variable "count" {
+variable "node_count" {
   description = "Number of Vault nodes to provision across private subnets, defaults to private subnet count."
   default     = -1
 }
